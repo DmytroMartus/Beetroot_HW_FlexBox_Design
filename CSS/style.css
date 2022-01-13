@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #e2e7ec;
+}
+
+.card__wrapper {
+    width: 1120px;
+    height: 1120px;
+    margin: 30px auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__wrap {
+    background-color: #fff;
+}
+
+.card__wrap:nth-child(1) {
+    width: 740px;
+    height: 540px;
+    background-image: url(../img/1-div-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 10px 0 25px;
+}
+
+.card__wrap:nth-child(n+2):nth-child(-n+5) {
+    width: 360px;
+    height: 540px;
+    padding: 0 10px 0 25px;
+}
+
+.card__first {
+    margin-top: 400px;
+}
+
+.card__second {
+    margin-top: 280px;
+}
+
+.card__fourth {
+    margin-top: 320px;
+}
+
+.card__date {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #818181;
+    margin-bottom: 25px;
+}
+
+.card__discription1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.card__discription {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.card__wrap:nth-child(2) {
+    background-image: url(../img/2-div-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.card__wrap:nth-child(3) {
+    background-image: url(../img/3-div-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.card__wrap:nth-child(4) {
+    background-image: url(../img/4-div-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.card__wrap:nth-child(5) {
+    background-image: url(../img/5-div-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.icon__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 25px;
+}
+
+.loading {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto 100px;
+}
+
+.loading__icon {
+    width: 30px;
+    height: 28px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loading__text {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #99a5b0;
+}
